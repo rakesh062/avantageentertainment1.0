@@ -1,0 +1,19 @@
+2025-07-04 08:33:25 [TestNG-test-EdgeTest(failed)-1] INFO  avantage.entertainment.testcases.LoginTestCases - ************* Staring Of Test Case: loginWithEmailValidInvalidUsers ********************
+2025-07-04 08:33:29 [TestNG-test-EdgeTest(failed)-1] INFO  avantage.entertainment.testcases.LoginTestCases - Clicked on Login button in the header
+2025-07-04 08:33:30 [TestNG-test-EdgeTest(failed)-1] INFO  avantage.entertainment.testcases.LoginTestCases - Clicked on Login with eamil image button in the login modal
+2025-07-04 08:33:31 [TestNG-test-EdgeTest(failed)-1] INFO  avantage.entertainment.testcases.LoginTestCases - entered email id in the login modal
+2025-07-04 08:33:32 [TestNG-test-EdgeTest(failed)-1] INFO  avantage.entertainment.testcases.LoginTestCases - entered pasword in the login modal
+2025-07-04 08:33:32 [TestNG-test-EdgeTest(failed)-1] INFO  avantage.entertainment.testcases.LoginTestCases - Clicked on Log In button in the login modal
+2025-07-04 08:33:36 [TestNG-test-EdgeTest(failed)-1] INFO  avantage.entertainment.testcases.LoginTestCases - Clicked on Log hamburger menu in the header
+2025-07-04 08:33:36 [TestNG-test-EdgeTest(failed)-1] INFO  avantage.entertainment.testcases.LoginTestCases - My Account button displayed after successful login
+2025-07-04 08:33:36 [TestNG-test-EdgeTest(failed)-1] INFO  avantage.entertainment.testcases.LoginTestCases - Click on My Account button in the menu
+2025-07-04 08:33:37 [TestNG-test-EdgeTest(failed)-1] INFO  avantage.entertainment.testcases.LoginTestCases - Click on logout from Player account modal
+2025-07-04 08:33:37 [TestNG-test-EdgeTest(failed)-1] INFO  avantage.entertainment.testcases.LoginTestCases - ************* End Of Test Case: loginWithEmailValidInvalidUsers ********************
+2025-07-04 08:33:40 [TestNG-test-EdgeTest(failed)-1] INFO  avantage.entertainment.testcases.LoginTestCases - ************* Staring Of Test Case: loginWithEmailValidInvalidUsers ********************
+2025-07-04 08:33:45 [TestNG-test-EdgeTest(failed)-1] INFO  avantage.entertainment.testcases.LoginTestCases - Clicked on Login button in the header
+2025-07-04 08:33:47 [TestNG-test-EdgeTest(failed)-1] INFO  avantage.entertainment.testcases.LoginTestCases - Clicked on Login with eamil image button in the login modal
+2025-07-04 08:33:48 [TestNG-test-EdgeTest(failed)-1] INFO  avantage.entertainment.testcases.LoginTestCases - entered email id in the login modal
+2025-07-04 08:33:48 [TestNG-test-EdgeTest(failed)-1] INFO  avantage.entertainment.testcases.LoginTestCases - entered pasword in the login modal
+2025-07-04 08:33:49 [TestNG-test-EdgeTest(failed)-1] INFO  avantage.entertainment.testcases.LoginTestCases - Clicked on Log In button in the login modal
+2025-07-04 08:33:52 [TestNG-test-EdgeTest(failed)-1] INFO  avantage.entertainment.testcases.LoginTestCases - Error message displayed when logged in with inavlid credential
+2025-07-04 08:33:52 [TestNG-test-EdgeTest(failed)-1] INFO  avantage.entertainment.testcases.LoginTestCases - ************* End Of Test Case: loginWithEmailValidInvalidUsers ********************

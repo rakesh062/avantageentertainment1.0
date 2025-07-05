@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="INFO">
+	<properties>
+		<property name="filePath">./logs</property>
+		<Property name="logTimeStamp">${date:yyyy-MM-dd_HH-mm-ss}</Property>
+	</properties>
+	
+    <Appenders>
+        <!-- Console Appender -->
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss} [%t] %-5level %logger{36} - %msg%n"/>
+        </Console>
+
+        <!-- File Appender -->
+        <RollingFile name="FileLogger" fileName="${filePath}/${logTimeStamp}avantageautomationtest.log" filePattern="${filePath}/archive/avantageautomationtest-%d{yyyy-MM-dd}.log">
+        
+            <PatternLayout Pattern="%d{yyyy-MM-dd HH:mm:ss} [%t] %-5level %logger{36} - %msg%n"/>
+            
+            <SizeBasedTriggeringPolicy size="50000"/>
+            
+        </RollingFile>
+    </Appenders>
+
+    <Loggers>
+        <!-- Root Logger -->
+        <Root level="info"> <!-- log levels are All < Trace < Debug < Info < Warn < Error < Fatal < Off -->
+            <AppenderRef ref="Console"/>
+            <AppenderRef ref="FileLogger"/>
+        </Root>
+
+        <!-- Custom Logger -->
+       <!-- <Logger name="com.example" level="debug" additivity="false">
+            <AppenderRef ref="Console"/>
+            <AppenderRef ref="FileLogger"/>
+        </Logger> -->
+    </Loggers>
+</Configuration>

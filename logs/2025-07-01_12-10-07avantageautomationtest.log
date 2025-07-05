@@ -1,0 +1,13 @@
+2025-07-01 12:10:12 [TestNG-test-ChromeTest-1] INFO  avantage.entertainment.testcases.HomePageTestCases - ************* Staring Of Test Case: verifyHeaderElementsInHomePage ********************
+2025-07-01 12:10:14 [TestNG-test-ChromeTest-2] INFO  avantage.entertainment.testcases.LoginTestCases - ************* Staring Of Test Case: loginWithEmailValidUsers ********************
+2025-07-01 12:10:15 [TestNG-test-ChromeTest-1] INFO  avantage.entertainment.testcases.HomePageTestCases - Hamburger Menu is displayed in the header menu
+2025-07-01 12:10:16 [TestNG-test-ChromeTest-2] INFO  avantage.entertainment.testcases.LoginTestCases - Clicked on Login button in the header
+2025-07-01 12:10:16 [TestNG-test-ChromeTest-1] INFO  avantage.entertainment.testcases.HomePageTestCases - Language Selection icon is displayed in the header menu
+2025-07-01 12:10:17 [TestNG-test-ChromeTest-1] INFO  avantage.entertainment.testcases.HomePageTestCases - help button is displayed in the header menu
+2025-07-01 12:10:17 [TestNG-test-ChromeTest-2] INFO  avantage.entertainment.testcases.LoginTestCases - Clicked on Login with email image button in the login modal
+2025-07-01 12:10:17 [TestNG-test-ChromeTest-1] INFO  avantage.entertainment.testcases.HomePageTestCases - Avanatge logo Image is displayed in the header menu
+2025-07-01 12:10:17 [TestNG-test-ChromeTest-1] INFO  avantage.entertainment.testcases.HomePageTestCases - My Contests button is displayed in the header menu
+2025-07-01 12:10:18 [TestNG-test-ChromeTest-2] INFO  avantage.entertainment.testcases.LoginTestCases - entered email id in the login modal
+2025-07-01 12:10:18 [TestNG-test-ChromeTest-1] INFO  avantage.entertainment.testcases.HomePageTestCases - Login button is displayed in the header menu
+2025-07-01 12:10:18 [TestNG-test-ChromeTest-1] INFO  avantage.entertainment.testcases.HomePageTestCases - Join button is displayed in the header menu
+2025-07-01 12:10:18 [TestNG-test-ChromeTest-1] INFO  avantage.entertainment.testcases.HomePageTestCases - ************* End Of Test Case: verifyHeaderElementsInHomePage ********************

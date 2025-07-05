@@ -1,0 +1,9 @@
+2025-07-04 08:29:07 [TestNG-test-EdgeTest(failed)-1] INFO  avantage.entertainment.testcases.HomePageTestCases - ************* Staring Of Test Case: verifyHeaderElementsInHomePage ********************
+2025-07-04 08:29:11 [TestNG-test-EdgeTest(failed)-1] INFO  avantage.entertainment.testcases.HomePageTestCases - Hamburger Menu is displayed in the header menu
+2025-07-04 08:29:11 [TestNG-test-EdgeTest(failed)-1] INFO  avantage.entertainment.testcases.HomePageTestCases - Language Selection icon is displayed in the header menu
+2025-07-04 08:29:11 [TestNG-test-EdgeTest(failed)-1] INFO  avantage.entertainment.testcases.HomePageTestCases - help button is displayed in the header menu
+2025-07-04 08:29:11 [TestNG-test-EdgeTest(failed)-1] INFO  avantage.entertainment.testcases.HomePageTestCases - Avanatge logo Image is displayed in the header menu
+2025-07-04 08:29:11 [TestNG-test-EdgeTest(failed)-1] INFO  avantage.entertainment.testcases.HomePageTestCases - My Contests button is displayed in the header menu
+2025-07-04 08:29:11 [TestNG-test-EdgeTest(failed)-1] INFO  avantage.entertainment.testcases.HomePageTestCases - Login button is displayed in the header menu
+2025-07-04 08:29:12 [TestNG-test-EdgeTest(failed)-1] INFO  avantage.entertainment.testcases.HomePageTestCases - Join button is displayed in the header menu
+2025-07-04 08:29:12 [TestNG-test-EdgeTest(failed)-1] INFO  avantage.entertainment.testcases.HomePageTestCases - ************* End Of Test Case: verifyHeaderElementsInHomePage ********************
