@@ -53,7 +53,7 @@ public class DriverFactory {
 		case "edge" : edgeOptions=new EdgeOptions();
 					  edgeOptions.setExperimentalOption("prefs", prefs);
 					  edgeOptions.addArguments("inprivate");
-					  edgeOptions.addArguments("headless");
+					  edgeOptions.addArguments("--headless", "--disable-gpu");
 					  driver=new EdgeDriver(edgeOptions);
 					  System.out.println("Edge driver set up completed");
 					  wait=new WebDriverWait(driver, Duration.ofSeconds(10));

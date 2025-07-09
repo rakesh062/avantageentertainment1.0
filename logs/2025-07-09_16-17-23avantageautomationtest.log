@@ -1,0 +1,28 @@
+2025-07-09 16:17:32 [main] INFO  avantage.entertainment.testcases.HomePageTestCases - ************* Staring Of Test Case: verifyHeaderElementsInHomePage ********************
+2025-07-09 16:17:33 [main] INFO  avantage.entertainment.testcases.HomePageTestCases - Hamburger Menu is displayed in the header menu
+2025-07-09 16:17:33 [main] INFO  avantage.entertainment.testcases.HomePageTestCases - Language Selection icon is displayed in the header menu
+2025-07-09 16:17:33 [main] INFO  avantage.entertainment.testcases.HomePageTestCases - help button is displayed in the header menu
+2025-07-09 16:17:34 [main] INFO  avantage.entertainment.testcases.HomePageTestCases - Avanatge logo Image is displayed in the header menu
+2025-07-09 16:17:37 [main] INFO  avantage.entertainment.testcases.HomePageTestCases - My Contests button is displayed in the header menu
+2025-07-09 16:17:37 [main] INFO  avantage.entertainment.testcases.HomePageTestCases - Login button is displayed in the header menu
+2025-07-09 16:17:37 [main] INFO  avantage.entertainment.testcases.HomePageTestCases - Join button is displayed in the header menu
+2025-07-09 16:17:37 [main] INFO  avantage.entertainment.testcases.HomePageTestCases - ************* End Of Test Case: verifyHeaderElementsInHomePage ********************
+2025-07-09 16:17:41 [main] INFO  avantage.entertainment.testcases.LoginTestCases - ************* Staring Of Test Case: loginWithEmailValidInvalidUsers ********************
+2025-07-09 16:17:45 [main] INFO  avantage.entertainment.testcases.LoginTestCases - Clicked on Login button in the header
+2025-07-09 16:17:46 [main] INFO  avantage.entertainment.testcases.LoginTestCases - Clicked on Login with eamil image button in the login modal
+2025-07-09 16:17:46 [main] INFO  avantage.entertainment.testcases.LoginTestCases - entered email id in the login modal
+2025-07-09 16:17:47 [main] INFO  avantage.entertainment.testcases.LoginTestCases - entered pasword in the login modal
+2025-07-09 16:17:47 [main] INFO  avantage.entertainment.testcases.LoginTestCases - Clicked on Log In button in the login modal
+2025-07-09 16:17:50 [main] INFO  avantage.entertainment.testcases.LoginTestCases - Clicked on Log hamburger menu in the header
+2025-07-09 16:17:51 [main] INFO  avantage.entertainment.testcases.LoginTestCases - My Account button displayed after successful login
+2025-07-09 16:17:51 [main] INFO  avantage.entertainment.testcases.LoginTestCases - Click on My Account button in the menu
+2025-07-09 16:17:51 [main] INFO  avantage.entertainment.testcases.LoginTestCases - Click on logout from Player account modal
+2025-07-09 16:17:51 [main] INFO  avantage.entertainment.testcases.LoginTestCases - ************* End Of Test Case: loginWithEmailValidInvalidUsers ********************
+2025-07-09 16:17:54 [main] INFO  avantage.entertainment.testcases.LoginTestCases - ************* Staring Of Test Case: loginWithEmailValidInvalidUsers ********************
+2025-07-09 16:17:56 [main] INFO  avantage.entertainment.testcases.LoginTestCases - Clicked on Login button in the header
+2025-07-09 16:17:57 [main] INFO  avantage.entertainment.testcases.LoginTestCases - Clicked on Login with eamil image button in the login modal
+2025-07-09 16:17:58 [main] INFO  avantage.entertainment.testcases.LoginTestCases - entered email id in the login modal
+2025-07-09 16:17:58 [main] INFO  avantage.entertainment.testcases.LoginTestCases - entered pasword in the login modal
+2025-07-09 16:17:58 [main] INFO  avantage.entertainment.testcases.LoginTestCases - Clicked on Log In button in the login modal
+2025-07-09 16:18:01 [main] INFO  avantage.entertainment.testcases.LoginTestCases - Error message displayed when logged in with inavlid credential
+2025-07-09 16:18:01 [main] INFO  avantage.entertainment.testcases.LoginTestCases - ************* End Of Test Case: loginWithEmailValidInvalidUsers ********************

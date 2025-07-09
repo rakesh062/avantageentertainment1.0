@@ -11,7 +11,7 @@ import avantage.entertainment.utilities.DriverManager;
 public class LoginTestCases extends BaseClass {
 	
 	//Test case to validate login successful with valid user credentials
-	@Test
+	@Test(groups="smoke")
 	public void loginWithEmailValidUsers() {
 		System.out.println("Running on thread: " + Thread.currentThread().getName());
 		
@@ -73,7 +73,7 @@ public class LoginTestCases extends BaseClass {
 
 
 	//Test case to validate login with valid and invalid user credentials
-		@Test(dataProvider="loginData", dataProviderClass=DataProviderClass.class, groups="smoke")
+		@Test(dataProvider="loginData", dataProviderClass=DataProviderClass.class, groups="regression")
 		public void loginWithEmailValidInvalidUsers(String userEmail, String userPassword, String validInvalidCredential) {
 			
 			WebDriver driver = DriverManager.getDriver();
