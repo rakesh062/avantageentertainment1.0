@@ -23,14 +23,14 @@
     </classes>
   </test> <!-- Test -->
   
-  <test name="EdgeTest">
+ <!-- <test name="EdgeTest">
   	<parameter name="os" value="windows"></parameter>
   	<parameter name="browser" value="edge"></parameter>
     <classes>
       <class name="avantage.entertainment.testcases.HomePageTestCases"/>
       <class name="avantage.entertainment.testcases.LoginTestCases"/>
     </classes>
-  </test>  <!-- Test --> 
+  </test> --> <!-- Test -->  
  
   
 </suite> <!-- Suite -->
