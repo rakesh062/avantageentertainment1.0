@@ -44,7 +44,7 @@ public class DriverFactory {
 		case "chrome" : chromeOptions=new ChromeOptions();
 						chromeOptions.setExperimentalOption("prefs", prefs);
 						chromeOptions.addArguments("--incognito");
-						//chromeOptions.addArguments("--headless");
+						chromeOptions.addArguments("--headless");
 						driver=new ChromeDriver(chromeOptions);
 						System.out.println("Chrome driver set up completed");
 						wait=new WebDriverWait(driver, Duration.ofSeconds(10));
@@ -53,7 +53,7 @@ public class DriverFactory {
 		case "edge" : edgeOptions=new EdgeOptions();
 					  edgeOptions.setExperimentalOption("prefs", prefs);
 					  edgeOptions.addArguments("inprivate");
-					  //edgeOptions.addArguments("headless");
+					  edgeOptions.addArguments("headless");
 					  driver=new EdgeDriver(edgeOptions);
 					  System.out.println("Edge driver set up completed");
 					  wait=new WebDriverWait(driver, Duration.ofSeconds(10));
