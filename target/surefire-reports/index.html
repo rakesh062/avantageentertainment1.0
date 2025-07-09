@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Suite" class="navigator-link">
-              <span class="suite-name border-failed">Suite</span>
+              <span class="suite-name border-passed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -55,7 +55,7 @@
                 </li>
                 <li>
                   <a href="#" panel-name="testlist-Suite" class="navigator-link ">
-                    <span class="test-stats">2 tests</span>
+                    <span class="test-stats">1 test</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -92,21 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">6 methods, 1 failed,   5 passed</span>
-                  </li>
-                  <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
-                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
-                    </span>
-                    <div class="method-list-content failed suite-Suite">
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="avantage.entertainment.testcases.LoginTestCases" class="method navigator-link" hash-for-method="loginWithEmailValidInvalidUsers(rakesh001@mailinator.com, Igsdata@135792, valid)">loginWithEmailValidInvalidUsers(rakesh001@mailinator.com, Igsdata@135792, valid)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-Suite -->
+                    <span class="method-stats">2 methods,   2 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -117,22 +103,7 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="avantage.entertainment.testcases.LoginTestCases" class="method navigator-link" hash-for-method="loginWithEmailValidInvalidUsers(rakesh002@mailinator.com, Igsdata@135792, invalid)">loginWithEmailValidInvalidUsers(rakesh002@mailinator.com, Igsdata@135792, invalid)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="avantage.entertainment.testcases.LoginTestCases" class="method navigator-link" hash-for-method="loginWithEmailValidInvalidUsers(rakesh001@mailinator.com, Igsdata@135792, valid)">loginWithEmailValidInvalidUsers(rakesh001@mailinator.com, Igsdata@135792, valid)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="avantage.entertainment.testcases.LoginTestCases" class="method navigator-link" hash-for-method="loginWithEmailValidInvalidUsers(rakesh002@mailinator.com, Igsdata@135792, invalid)">loginWithEmailValidInvalidUsers(rakesh002@mailinator.com, Igsdata@135792, invalid)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="avantage.entertainment.testcases.HomePageTestCases" class="method navigator-link" hash-for-method="verifyHeaderElementsInHomePage">verifyHeaderElementsInHomePage</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="avantage.entertainment.testcases.LoginTestCases" class="method navigator-link" hash-for-method="loginWithEmailValidUsers">loginWithEmailValidUsers</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -152,36 +123,6 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
-          <div class="suite-Suite-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">avantage.entertainment.testcases.LoginTestCases</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="loginWithEmailValidInvalidUsers(rakesh001@mailinator.com, Igsdata@135792, valid)">
-                  </a> <!-- loginWithEmailValidInvalidUsers(rakesh001@mailinator.com, Igsdata@135792, valid) -->
-                  <span class="method-name">loginWithEmailValidInvalidUsers</span>
-                  <span class="parameters">(rakesh001@mailinator.com,Igsdata@135792,valid)</span>
-                  <div class="stack-trace">java.lang.AssertionError: Session ID is null. Using WebDriver after calling quit()?
-Build info: version: &apos;4.33.0&apos;, revision: &apos;2c6aaad03a&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.7&apos;
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [null, findElement {using=xpath, value=(//span[contains(text(),&apos;Help&apos;)])[1]//parent::button//preceding-sibling::button}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 138.0.3351.65, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:51838}, msedge: {msedgedriverVersion: 138.0.3351.65 (81e3782c3ab4..., userDataDir: C:\Users\rakes\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51838/devtoo..., se:cdpVersion: 138.0.3351.65, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-	at avantage.entertainment.testcases.LoginTestCases.loginWithEmailValidInvalidUsers(LoginTestCases.java:126)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1583)
-... Removed 12 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-failed -->
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -190,26 +131,9 @@ Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVer
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="loginWithEmailValidInvalidUsers(rakesh002@mailinator.com, Igsdata@135792, invalid)">
-                  </a> <!-- loginWithEmailValidInvalidUsers(rakesh002@mailinator.com, Igsdata@135792, invalid) -->
-                  <span class="method-name">loginWithEmailValidInvalidUsers</span>
-                  <span class="parameters">(rakesh002@mailinator.com,Igsdata@135792,invalid)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="loginWithEmailValidInvalidUsers(rakesh001@mailinator.com, Igsdata@135792, valid)">
-                  </a> <!-- loginWithEmailValidInvalidUsers(rakesh001@mailinator.com, Igsdata@135792, valid) -->
-                  <span class="method-name">loginWithEmailValidInvalidUsers</span>
-                  <span class="parameters">(rakesh001@mailinator.com,Igsdata@135792,valid)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="loginWithEmailValidInvalidUsers(rakesh002@mailinator.com, Igsdata@135792, invalid)">
-                  </a> <!-- loginWithEmailValidInvalidUsers(rakesh002@mailinator.com, Igsdata@135792, invalid) -->
-                  <span class="method-name">loginWithEmailValidInvalidUsers</span>
-                  <span class="parameters">(rakesh002@mailinator.com,Igsdata@135792,invalid)</span>
+                  <a name="loginWithEmailValidUsers">
+                  </a> <!-- loginWithEmailValidUsers -->
+                  <span class="method-name">loginWithEmailValidUsers</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -220,13 +144,6 @@ Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVer
               <span class="class-name">avantage.entertainment.testcases.HomePageTestCases</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyHeaderElementsInHomePage">
-                  </a> <!-- verifyHeaderElementsInHomePage -->
-                  <span class="method-name">verifyHeaderElementsInHomePage</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
                   <a name="verifyHeaderElementsInHomePage">
@@ -245,7 +162,7 @@ Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVer
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite parallel=&quot;classes&quot; name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
   &lt;groups&gt;
     &lt;run&gt;
       &lt;include name=&quot;smoke&quot;/&gt;
@@ -259,15 +176,7 @@ Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVer
   &lt;listeners&gt;
     &lt;listener class-name=&quot;avantage.entertainment.utilities.ExtentReportManager&quot;/&gt;
   &lt;/listeners&gt;
-  &lt;test thread-count=&quot;5&quot; parallel=&quot;classes&quot; name=&quot;ChromeTest&quot; verbose=&quot;0&quot;&gt;
-    &lt;parameter name=&quot;os&quot; value=&quot;windows&quot;/&gt;
-    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
-    &lt;classes&gt;
-      &lt;class name=&quot;avantage.entertainment.testcases.HomePageTestCases&quot;/&gt;
-      &lt;class name=&quot;avantage.entertainment.testcases.LoginTestCases&quot;/&gt;
-    &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- ChromeTest --&gt;
-  &lt;test thread-count=&quot;5&quot; parallel=&quot;classes&quot; name=&quot;EdgeTest&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;EdgeTest&quot; verbose=&quot;0&quot;&gt;
     &lt;parameter name=&quot;os&quot; value=&quot;windows&quot;/&gt;
     &lt;parameter name=&quot;browser&quot; value=&quot;edge&quot;/&gt;
     &lt;classes&gt;
@@ -286,9 +195,6 @@ Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVer
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">ChromeTest (2 classes)</span>
-              </li>
-              <li>
                 <span class="test-name">EdgeTest (2 classes)</span>
               </li>
             </ul>
@@ -303,7 +209,7 @@ Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVer
               <span class="test-group-name">smoke</span>
               <br/>
               <div class="method-in-group">
-                <span class="method-in-group-name">loginWithEmailValidInvalidUsers</span>
+                <span class="method-in-group-name">loginWithEmailValidUsers</span>
                 <br/>
               </div> <!-- method-in-group -->
               <div class="method-in-group">
@@ -327,36 +233,20 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(6);
+data.addRows(2);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'loginWithEmailValidInvalidUsers')
+data.setCell(0, 1, 'loginWithEmailValidUsers')
 data.setCell(0, 2, 'avantage.entertainment.testcases.LoginTestCases')
-data.setCell(0, 3, 17139);
+data.setCell(0, 3, 10297);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'loginWithEmailValidInvalidUsers')
-data.setCell(1, 2, 'avantage.entertainment.testcases.LoginTestCases')
-data.setCell(1, 3, 12623);
-data.setCell(2, 0, 2)
-data.setCell(2, 1, 'loginWithEmailValidInvalidUsers')
-data.setCell(2, 2, 'avantage.entertainment.testcases.LoginTestCases')
-data.setCell(2, 3, 10883);
-data.setCell(3, 0, 3)
-data.setCell(3, 1, 'loginWithEmailValidInvalidUsers')
-data.setCell(3, 2, 'avantage.entertainment.testcases.LoginTestCases')
-data.setCell(3, 3, 9977);
-data.setCell(4, 0, 4)
-data.setCell(4, 1, 'verifyHeaderElementsInHomePage')
-data.setCell(4, 2, 'avantage.entertainment.testcases.HomePageTestCases')
-data.setCell(4, 3, 8546);
-data.setCell(5, 0, 5)
-data.setCell(5, 1, 'verifyHeaderElementsInHomePage')
-data.setCell(5, 2, 'avantage.entertainment.testcases.HomePageTestCases')
-data.setCell(5, 3, 8075);
+data.setCell(1, 1, 'verifyHeaderElementsInHomePage')
+data.setCell(1, 2, 'avantage.entertainment.testcases.HomePageTestCases')
+data.setCell(1, 3, 8134);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <span class="suite-total-time">Total running time: 18 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -371,15 +261,13 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">2 ignored methods</span>
+            <span class="header-content">1 ignored method</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="ignored-class-div">
               <span class="ignored-class-name">avantage.entertainment.testcases.LoginTestCases</span>
               <div class="ignored-methods-div">
-                <span class="ignored-method-name">loginWithEmailValidUsers</span>
-                <br/>
-                <span class="ignored-method-name">loginWithEmailValidUsers</span>
+                <span class="ignored-method-name">loginWithEmailValidInvalidUsers</span>
                 <br/>
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
@@ -391,132 +279,41 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">avantage.entertainment.testcases.LoginTestCases</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">avantage.entertainment.testcases.HomePageTestCases</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">beforeClassSetUp</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">avantage.entertainment.testcases.HomePageTestCases</div> <!-- chronological-class-name -->
-              <div class="configuration-class before">
-                <span class="method-name">beforeClassSetUp</span>
-                <span class="method-start">32 ms</span>
-              </div> <!-- configuration-class before -->
               <div class="configuration-method before">
-                <span class="method-name">setUp(windows, chrome)</span>
-                <span class="method-start">584 ms</span>
+                <span class="method-name">setUp(windows, edge)</span>
+                <span class="method-start">836 ms</span>
               </div> <!-- configuration-method before -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">avantage.entertainment.testcases.LoginTestCases</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">setUp(windows, chrome)</span>
-                <span class="method-start">2912 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">loginWithEmailValidInvalidUsers(rakesh001@mailinator.com, Igsdata@135792, valid)</span>
-                <span class="method-start">7440 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">avantage.entertainment.testcases.HomePageTestCases</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">verifyHeaderElementsInHomePage</span>
-                <span class="method-start">7441 ms</span>
+                <span class="method-start">4302 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">16168 ms</span>
+                <span class="method-start">12454 ms</span>
               </div> <!-- configuration-method after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">avantage.entertainment.testcases.LoginTestCases</div> <!-- chronological-class-name -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">24585 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">setUp(windows, chrome)</span>
-                <span class="method-start">25246 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">loginWithEmailValidInvalidUsers(rakesh002@mailinator.com, Igsdata@135792, invalid)</span>
-                <span class="method-start">27889 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">38775 ms</span>
-              </div> <!-- configuration-method after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">avantage.entertainment.testcases.HomePageTestCases</div> <!-- chronological-class-name -->
-              <div class="configuration-class before">
-                <span class="method-name">beforeClassSetUp</span>
-                <span class="method-start">41006 ms</span>
-              </div> <!-- configuration-class before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">avantage.entertainment.testcases.LoginTestCases</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">beforeClassSetUp</span>
-                <span class="method-start">41006 ms</span>
+                <span class="method-start">12654 ms</span>
               </div> <!-- configuration-class before -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">avantage.entertainment.testcases.HomePageTestCases</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp(windows, edge)</span>
-                <span class="method-start">41011 ms</span>
-              </div> <!-- configuration-method before -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">avantage.entertainment.testcases.LoginTestCases</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">setUp(windows, edge)</span>
-                <span class="method-start">41868 ms</span>
-              </div> <!-- configuration-method before -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">avantage.entertainment.testcases.HomePageTestCases</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">verifyHeaderElementsInHomePage</span>
-                <span class="method-start">43328 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">avantage.entertainment.testcases.LoginTestCases</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">loginWithEmailValidInvalidUsers(rakesh001@mailinator.com, Igsdata@135792, valid)</span>
-                <span class="method-start">43856 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">avantage.entertainment.testcases.HomePageTestCases</div> <!-- chronological-class-name -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">51405 ms</span>
-              </div> <!-- configuration-method after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">avantage.entertainment.testcases.LoginTestCases</div> <!-- chronological-class-name -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">56849 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">setUp(windows, edge)</span>
-                <span class="method-start">57177 ms</span>
+                <span class="method-start">12659 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">loginWithEmailValidInvalidUsers(rakesh002@mailinator.com, Igsdata@135792, invalid)</span>
-                <span class="method-start">58180 ms</span>
+                <span class="method-name">loginWithEmailValidUsers</span>
+                <span class="method-start">13618 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">68160 ms</span>
+                <span class="method-start">23916 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
