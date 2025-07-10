@@ -53,15 +53,19 @@ public class DriverFactory {
 						break;
 						
 		case "edge" : EdgeDriverService service = new EdgeDriverService.Builder()
-	            .usingDriverExecutable(new File(".\\driver\\msedgedriver.exe"))
-	            .usingAnyFreePort()
-	            .build();
+			          .usingDriverExecutable(new File(".\\driver\\msedgedriver.exe"))
+			          .usingAnyFreePort()
+			          .build();
 
-					  edgeOptions=new EdgeOptions();
-					  edgeOptions.setExperimentalOption("prefs", prefs);
-					  edgeOptions.addArguments("inprivate");
-					  edgeOptions.addArguments("--headless","--disable-gpu","--no-sandbox","--disable-dev-shm-usage");
-					  driver=new EdgeDriver(service,edgeOptions);
+					EdgeOptions options = new EdgeOptions();
+					options.addArguments("--headless=new");
+					options.addArguments("--remote-debugging-port=9222");
+					options.addArguments("--no-sandbox");
+					options.addArguments("--disable-dev-shm-usage");
+					options.addArguments("--disable-gpu");
+					options.addArguments("--disable-extensions");
+
+					  driver=new EdgeDriver(service,options);
 					  System.out.println("Edge driver set up completed");
 					  wait=new WebDriverWait(driver, Duration.ofSeconds(10));
 					  break;
