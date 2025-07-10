@@ -2,20 +2,20 @@
 <testng-results ignored="1" total="3" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-07-09T17:01:46 CDT" name="Suite" finished-at="2025-07-09T17:02:11 CDT" duration-ms="24567">
+  <suite started-at="2025-07-09T22:25:02 CDT" name="Suite" finished-at="2025-07-09T22:25:18 CDT" duration-ms="16377">
     <groups>
       <group name="smoke">
         <method signature="HomePageTestCases.verifyHeaderElementsInHomePage()[pri:0, instance:avantage.entertainment.testcases.HomePageTestCases@459e9125]" name="verifyHeaderElementsInHomePage" class="avantage.entertainment.testcases.HomePageTestCases"/>
         <method signature="LoginTestCases.loginWithEmailValidUsers()[pri:0, instance:avantage.entertainment.testcases.LoginTestCases@4c583ecf]" name="loginWithEmailValidUsers" class="avantage.entertainment.testcases.LoginTestCases"/>
       </group> <!-- smoke -->
     </groups>
-    <test started-at="2025-07-09T17:01:46 CDT" name="EdgeTest" finished-at="2025-07-09T17:02:11 CDT" duration-ms="24567">
+    <test started-at="2025-07-09T22:25:02 CDT" name="EdgeTest" finished-at="2025-07-09T22:25:18 CDT" duration-ms="16377">
       <class name="avantage.entertainment.testcases.HomePageTestCases">
-        <test-method is-config="true" signature="beforeClassSetUp()[pri:0, instance:avantage.entertainment.testcases.HomePageTestCases@459e9125]" started-at="2025-07-09T17:01:46 CDT" name="beforeClassSetUp" finished-at="2025-07-09T17:01:47 CDT" duration-ms="816" status="PASS">
+        <test-method is-config="true" signature="beforeClassSetUp()[pri:0, instance:avantage.entertainment.testcases.HomePageTestCases@459e9125]" started-at="2025-07-09T22:25:02 CDT" name="beforeClassSetUp" finished-at="2025-07-09T22:25:02 CDT" duration-ms="526" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClassSetUp -->
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:avantage.entertainment.testcases.HomePageTestCases@459e9125]" started-at="2025-07-09T17:01:47 CDT" name="setUp" finished-at="2025-07-09T17:01:51 CDT" duration-ms="3466" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:avantage.entertainment.testcases.HomePageTestCases@459e9125]" started-at="2025-07-09T22:25:02 CDT" name="setUp" finished-at="2025-07-09T22:25:04 CDT" duration-ms="1781" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -31,21 +31,21 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyHeaderElementsInHomePage()[pri:0, instance:avantage.entertainment.testcases.HomePageTestCases@459e9125]" started-at="2025-07-09T17:01:51 CDT" name="verifyHeaderElementsInHomePage" finished-at="2025-07-09T17:01:59 CDT" duration-ms="8134" status="PASS">
+        <test-method signature="verifyHeaderElementsInHomePage()[pri:0, instance:avantage.entertainment.testcases.HomePageTestCases@459e9125]" started-at="2025-07-09T22:25:04 CDT" name="verifyHeaderElementsInHomePage" finished-at="2025-07-09T22:25:08 CDT" duration-ms="3410" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyHeaderElementsInHomePage -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:avantage.entertainment.testcases.HomePageTestCases@459e9125]" started-at="2025-07-09T17:01:59 CDT" name="tearDown" finished-at="2025-07-09T17:01:59 CDT" duration-ms="194" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:avantage.entertainment.testcases.HomePageTestCases@459e9125]" started-at="2025-07-09T22:25:08 CDT" name="tearDown" finished-at="2025-07-09T22:25:08 CDT" duration-ms="182" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- avantage.entertainment.testcases.HomePageTestCases -->
       <class name="avantage.entertainment.testcases.LoginTestCases">
-        <test-method is-config="true" signature="beforeClassSetUp()[pri:0, instance:avantage.entertainment.testcases.LoginTestCases@4c583ecf]" started-at="2025-07-09T17:01:59 CDT" name="beforeClassSetUp" finished-at="2025-07-09T17:01:59 CDT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="beforeClassSetUp()[pri:0, instance:avantage.entertainment.testcases.LoginTestCases@4c583ecf]" started-at="2025-07-09T22:25:08 CDT" name="beforeClassSetUp" finished-at="2025-07-09T22:25:08 CDT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClassSetUp -->
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:avantage.entertainment.testcases.LoginTestCases@4c583ecf]" started-at="2025-07-09T17:01:59 CDT" name="setUp" finished-at="2025-07-09T17:02:00 CDT" duration-ms="959" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:avantage.entertainment.testcases.LoginTestCases@4c583ecf]" started-at="2025-07-09T22:25:08 CDT" name="setUp" finished-at="2025-07-09T22:25:09 CDT" duration-ms="780" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -61,11 +61,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="loginWithEmailValidUsers()[pri:0, instance:avantage.entertainment.testcases.LoginTestCases@4c583ecf]" started-at="2025-07-09T17:02:00 CDT" name="loginWithEmailValidUsers" finished-at="2025-07-09T17:02:10 CDT" duration-ms="10297" status="PASS">
+        <test-method signature="loginWithEmailValidUsers()[pri:0, instance:avantage.entertainment.testcases.LoginTestCases@4c583ecf]" started-at="2025-07-09T22:25:09 CDT" name="loginWithEmailValidUsers" finished-at="2025-07-09T22:25:18 CDT" duration-ms="9193" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginWithEmailValidUsers -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:avantage.entertainment.testcases.LoginTestCases@4c583ecf]" started-at="2025-07-09T17:02:10 CDT" name="tearDown" finished-at="2025-07-09T17:02:11 CDT" duration-ms="220" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:avantage.entertainment.testcases.LoginTestCases@4c583ecf]" started-at="2025-07-09T22:25:18 CDT" name="tearDown" finished-at="2025-07-09T22:25:18 CDT" duration-ms="162" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

@@ -1,6 +1,7 @@
 package avantage.entertainment.utilities;
 
 
+import java.io.File;
 import java.io.IOException;
 import java.net.URI;
 import java.net.URISyntaxException;
@@ -12,6 +13,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.edge.EdgeDriverService;
 import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
@@ -50,11 +52,16 @@ public class DriverFactory {
 						wait=new WebDriverWait(driver, Duration.ofSeconds(10));
 						break;
 						
-		case "edge" : edgeOptions=new EdgeOptions();
+		case "edge" : EdgeDriverService service = new EdgeDriverService.Builder()
+	            .usingDriverExecutable(new File(".\\driver\\msedgedriver.exe"))
+	            .usingAnyFreePort()
+	            .build();
+
+					  edgeOptions=new EdgeOptions();
 					  edgeOptions.setExperimentalOption("prefs", prefs);
 					  edgeOptions.addArguments("inprivate");
 					  edgeOptions.addArguments("--headless","--disable-gpu","--no-sandbox","--disable-dev-shm-usage");
-					  driver=new EdgeDriver(edgeOptions);
+					  driver=new EdgeDriver(service,edgeOptions);
 					  System.out.println("Edge driver set up completed");
 					  wait=new WebDriverWait(driver, Duration.ofSeconds(10));
 					  break;
