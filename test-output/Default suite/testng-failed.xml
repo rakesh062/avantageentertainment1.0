@@ -6,9 +6,9 @@
       <class name="avantage.entertainment.testcases.HomePageTestCases">
         <methods>
           <include name="verifyHeaderElementsInHomePage"/>
-          <include name="setUp"/>
           <include name="tearDown"/>
-          <include name="loginWithEmailValidUsers"/>
+          <include name="beforeClassSetUp"/>
+          <include name="setUp"/>
         </methods>
       </class> <!-- avantage.entertainment.testcases.HomePageTestCases -->
     </classes>

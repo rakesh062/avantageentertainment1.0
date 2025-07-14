@@ -1,6 +1,7 @@
 package avantage.entertainment.testcases;
 
 
+
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -11,8 +12,7 @@ import avantage.entertainment.utilities.DriverManager;
 
 public class HomePageTestCases extends BaseClass{
 	
-	
-	
+
 	//Test case to verify the header elements in the home page
 	@Test(groups="smoke")
 	public void verifyHeaderElementsInHomePage() {

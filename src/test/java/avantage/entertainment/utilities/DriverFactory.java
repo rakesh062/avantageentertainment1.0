@@ -33,7 +33,7 @@ public class DriverFactory {
 		
 		WebDriver driver;
 		ChromeOptions chromeOptions;
-		EdgeOptions edgeOptions;
+		//EdgeOptions edgeOptions;
     	
 			System.out.println("under local");
 			HashMap<String, Object> prefs=new HashMap<String, Object>();

@@ -1,26 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite parallel="classes" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <listeners>
-    <listener class-name="avantage.entertainment.utilities.ExtentReportManager"/>
-  </listeners>
-  <test thread-count="5" parallel="classes" name="EdgeTest(failed)">
-    <parameter name="os" value="windows"/>
-    <parameter name="browser" value="edge"/>
-    <groups>
-      <run>
-        <include name="smoke"/>
-      </run>
-    </groups>
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="avantage.entertainment.testcases.LoginTestCases">
+      <class name="avantage.entertainment.testcases.HomePageTestCases">
         <methods>
-          <include name="setUp"/>
+          <include name="verifyHeaderElementsInHomePage"/>
           <include name="tearDown"/>
           <include name="beforeClassSetUp"/>
-          <include name="loginWithEmailValidInvalidUsers"/>
+          <include name="setUp"/>
         </methods>
-      </class> <!-- avantage.entertainment.testcases.LoginTestCases -->
+      </class> <!-- avantage.entertainment.testcases.HomePageTestCases -->
     </classes>
-  </test> <!-- EdgeTest(failed) -->
-</suite> <!-- Failed suite [Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

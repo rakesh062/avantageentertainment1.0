@@ -41,7 +41,7 @@ public class BaseClass {
 	public String local_Remote_Execution;
 
 	
-	@BeforeClass(groups="smoke")
+	@BeforeClass(groups={"smoke","regression"})
 	public void beforeClassSetUp() throws IOException {
 		logger=LogManager.getLogger(this.getClass());
 		FileReader propertiesFilePath= new FileReader("./src//test//resources//config.properties");
@@ -52,7 +52,7 @@ public class BaseClass {
 	}
 	
     @Parameters({"os","browser"})
-    @BeforeMethod(groups="smoke")
+    @BeforeMethod(groups={"smoke","regression"})
     public void setUp(String os, String browser) throws IOException, URISyntaxException {
     	if(local_Remote_Execution.toLowerCase().equals("local")) {
     		System.out.println("I am in local");
@@ -69,7 +69,7 @@ public class BaseClass {
         
     }
 
-    @AfterMethod(groups="smoke")
+    @AfterMethod(groups={"smoke","regression"})
     public void tearDown() {
         DriverManager.quitDriver();
     }

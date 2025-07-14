@@ -3,11 +3,11 @@
 <suite name="Suite">
 
 		
-	<groups>
+	<!--<groups>
 		<run>
 			<include name="smoke"></include>
 		</run>
-	</groups>
+	</groups> -->
 	
 	<listeners>
 		<listener class-name="avantage.entertainment.utilities.ExtentReportManager">
